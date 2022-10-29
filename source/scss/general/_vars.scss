@@ -1,0 +1,25 @@
+:root {
+  --body-bg: #262626;
+
+
+  --content-width: 1240px;
+  --container-offset: 50px;
+  // --container-offset: clamp(10px, 3.472vw, 20px);
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  --font-family: "Gazer Sans", sans-serif; // var(--font-family);
+
+
+  // text color
+  --color-a: #ffffff; // var(--color-a);
+  --color-b: #000000; // var(--color-b);
+  --color-c: #515A6C; // var(--color-c);
+
+
+  --bg-a: #F5F5F5; // var(--bg-a);
+  --bg-b: #515a6c; // var(--bg-b);
+  --bg-c: #ffffff; // var(--bg-c);
+  --bg-d: #C7C7C7; // var(--bg-d);
+
+
+}

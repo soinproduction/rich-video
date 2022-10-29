@@ -1,0 +1,85 @@
+.site-content {
+
+  .logo {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+    @include mobile {
+      width: 90%;
+
+    }
+  }
+
+  .main-title {
+    padding: Min(4.839vw,60px) 0 Min(3.226vw,40px) Min(3.226vw,40px);
+    line-height: 120%;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(23px, 4.032vw, 50px);
+    color: var(--color-a);
+    max-width: 487px;
+    width: 51%;
+
+    b {
+      font-weight: 700;
+    }
+
+
+    @include small-tablet {
+      padding: 0;
+    }
+
+    @include mobile {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(23px, 4.032vw, 50px);
+    line-height: 115%;
+    font-family: var(--font-family);
+    color: var(--color-a);
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    width: 100%;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(20px, 2.419vw, 30px);
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--color-a);
+  }
+
+  p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(16px, 1.613vw ,20px);
+    line-height: 125%;
+    color: var(--color-a);
+    max-width: 1020px;
+
+    @include mobile {
+      text-align: center;
+    }
+  }
+
+  .border {
+    background: var(--bg-b);
+    border: 2px solid var(--bg-c);
+    border-radius: clamp(30px, 4.478vw, 60px);
+  }
+
+
+
+
+}
+
